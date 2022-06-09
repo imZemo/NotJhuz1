@@ -48,8 +48,8 @@ let handler = async (m, { conn, usedPrefix }) => {
   let info = `
 ╠═〘 *Informacion del Bot* 〙 ═
 ╠
-╠➥ [🤴🏻] Creador del Bot: *𝐉𝐡𝐮𝐬𝐳ᙆ  ᷦ×͜×*
-╠➥ [#️⃣] Numero del creador: *+502 5768-1618*
+╠➥ [🤴🏻] Creador del Bot: *Destroyer*
+╠➥ [#️⃣] Numero del creador: *+51 917 611 323*
 ╠➥ [🌐] Navegador: *${conn.browserDescription[1]}*
 ╠➥ [✅] version: *${conn.browserDescription[2]}*
 ╠➥ [🎳] Prefijo: *${usedPrefix}*
@@ -64,7 +64,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╠➥ [🪀] version de WhatsApp: *${conn.user.phone.wa_version}*
 ╠➥ [🤖] Bots secundarios activos: *${totaljadibot.length}*
 ╠
-╠═〘 *𝐉𝐡𝐮𝐬𝐳ᙆ  ᷦ×͜×* 〙 ═
+╠═〘 *𝐔𝐧 𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐨𝐭𝐬𝐢𝐭𝐨 𓃵* 〙 ═
 `.trim() 
   conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*🔥 JHUSZ X-X 🔥*', 'status@broadcast')
 }
