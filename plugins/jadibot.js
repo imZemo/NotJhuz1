@@ -19,7 +19,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
       auth = true
     }
     conn.on('qr', async qr => {
-      let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', '*🔰 𝐉𝐡𝐮𝐬𝐳ᙆ  ᷦ×͜× 🔰*\nㅤㅤㅤㅤ*Ser sub bot*\n\n*Con otro telefono que tengas o en la PC escanea este QR para convertirte en un sub bot*\n\n*1. Haga clic en los tres puntos en la esquina superior derecha*\n*2. Toca WhatsApp Web*\n*3. Escanee este codigo QR*\n*Este código QR expira en 20 segundos!*\n\n*⚠️ No nos hacemos responsable del mal uso que se le pueda dar o si el numero se manda a soporte.. ustedes tienen el deber se seguir al pie de la letra los terminos y condiciones y privacidad*', m)
+      let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', '*𝐔𝐧 𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐨𝐭𝐬𝐢𝐭𝐨 𓃵*\nㅤㅤㅤㅤ*Ser sub bot*\n\n*Con otro telefono que tengas o en la PC escanea este QR para convertirte en un sub bot*\n\n*1. Haga clic en los tres puntos en la esquina superior derecha*\n*2. Toca WhatsApp Web*\n*3. Escanee este codigo QR*\n*Este código QR expira en 20 segundos!*\n\n*⚠️ No nos hacemos responsable del mal uso que se le pueda dar o si el numero se manda a soporte.. ustedes tienen el deber se seguir al pie de la letra los terminos y condiciones y privacidad*', m)
       setTimeout(() => {
         parent.deleteMessage(m.chat, scan.key)
       }, 30000)
@@ -63,7 +63,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
       }, 30000)
     })
     global.conns.push(conn)
-  } else throw '*「🤖 Jhusz X-X ͚͜͝͠ 🤖」*\n\n*⚠️ No se puede hacer un bot dentro de un sub bot!*\n*✳️ Mande el comando #jadibot al numero oficial/principal del Bot*\n\n*👉🏻 https://wa.me/' + global.conn.user.jid.split`@`[0] + '?text=#jadibot*\n\n*「🤖 JH͚͜͝͠USZ X-X  🤖」*'
+  } else throw '*「𝐔𝐧 𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐨𝐭𝐬𝐢𝐭𝐨 𓃵」*\n\n*⚠️ No se puede hacer un bot dentro de un sub bot!*\n*✳️ Mande el comando #jadibot al numero oficial/principal del Bot*\n\n*👉🏻 https://wa.me/' + global.conn.user.jid.split`@`[0] + '?text=#jadibot*\n\n*「𝐔𝐧 𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐨𝐭𝐬𝐢𝐭𝐨 𓃵」*'
 }
 handler.help = ['jadibot']
 handler.tags = ['jadibot']
