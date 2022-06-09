@@ -1,5 +1,5 @@
 global.DeveloperMode = 'false' //true Or false
-//global.linkGC = ['https://chat.whatsapp.com/JlomZPEgo3bLmzjGUYPfyJ' , 'https://chat.whatsapp.com/DbXBmsydWBE1ZN3EoY0hRs' , 'https://chat.whatsapp.com/BW0P22xx7EGBTdH5IM851F' , 'https://chat.whatsapp.com/FwEUGxkvZD85fIIp0gKyFC' , 'https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb'] // No tiene utilidad 
+//global.linkGC = ['https://chat.whatsapp.com/Bt1sRtyLup70KIpMWHI8LD' , 'https://chat.whatsapp.com/Bt1sRtyLup70KIpMWHI8LD' , 'https://chat.whatsapp.com/Bt1sRtyLup70KIpMWHI8LD' , 'https://chat.whatsapp.com/Bt1sRtyLup70KIpMWHI8LD' , 'https://chat.whatsapp.com/H7NUXdrGlFg20ae3bqgwlb'] // No tiene utilidad 
 //global.channelYT = ['https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'] // No tiene utilidad
 global.owner = ['51917611323' , '511921909260' , '51933462225'] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 global.mods = ['51917611323' , '51917611323'] // No tiene utilidad
@@ -49,8 +49,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '𝙉𝙤𝙩𝙅𝙝𝙪𝙯ᙆ  ᷦ×͜×'
-global.author = '𝐉𝐡𝐮𝐬𝐳ᙆ  ᷦ×͜×'
+global.packname = '𝐔𝐧 𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐨𝐭𝐬𝐢𝐭𝐨 𓃵'
+global.author = '𓃵𝕯𝖊𝖘𝖙𝖗𝖔𝒚𝖊𝖗⍣𝛰𝔣𝑖𝒄𝑖𝚊𝑙⃝ ཻུꫂ⠗'
 
 
 //global.wait = '*Esperé un momento..*'
